@@ -1,10 +1,38 @@
-.nav__link--active {
-    color: rgb(38, 161, 199);
-    font-weight: bold;
+.nav__link {
+    color: rgb(214, 75, 75);
 }
 
-.nav__link {
-    color: black;
+
+.nav__link--active {
+    color: rgb(73, 190, 225);
+    font-weight: bolder;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+.box {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.box--small {
+    border: 5px solid blue;
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+    
+}
+.box-wrap {
+    display: flex;
+    align-items: center;
 }
 
 div {
@@ -16,8 +44,8 @@ div:hover {
 }
 
 button {
-    animation: float 1s 30 alternate-reverse;
-    transition: all 2s;
+    animation: float 1s 1 alternate-reverse;
+    transition: all 1s;
 }
 button:hover {
     background-color: black;
@@ -32,3 +60,5 @@ button:hover {
         transform: translateY(80px);
     }
 }
+
+
